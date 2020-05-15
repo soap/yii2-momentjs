@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class MomentJsAllLocalesAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/moment/min';
+    public $sourcePath = '@vendor/bower-asset/moment/min';
     public $js = [
         'moment-with-locales.min.js',
     ];

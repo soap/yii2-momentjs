@@ -32,7 +32,7 @@ class MomentJsLocaleAsset extends AssetBundle
      */
     public $setLocaleOnReady = true;
 
-    public $sourcePath = '@vendor/bower/moment/locale';
+    public $sourcePath = '@vendor/bower-asset/moment/locale';
     public $depends = [
         'madand\momentjs\MomentJsAsset',
     ];
